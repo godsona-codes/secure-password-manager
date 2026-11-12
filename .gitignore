@@ -1,0 +1,14 @@
+# Virtual environment and Python cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime files created by the app (personal to each user, never commit)
+passwords.json
+salt.bin
+master.hash
+.hash
+
+# macOS
+.DS_Store
